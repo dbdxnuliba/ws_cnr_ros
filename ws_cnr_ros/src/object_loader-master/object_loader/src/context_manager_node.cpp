@@ -38,7 +38,7 @@ const std::string LIST_OBJECT_SRV   = "list_objects";
 const std::string IS_ATTACH_SRV  = "is_attached";
 
 
-const std::string OBJECT_TYPE_NS    = "object_geometries";
+//const std::string OBJECT_TYPE_NS    = "object_geometries";
 
 class PlanningSceneConfigurator
 {
@@ -376,9 +376,16 @@ class PlanningSceneConfigurator
       tf::poseMsgToTF( obj.pose.pose, T_0_hc );
 
       XmlRpc::XmlRpcValue config;
-      if(!nh_.getParam(OBJECT_TYPE_NS+"/"+obj.object_type,config))
+      // if(!nh_.getParam(OBJECT_TYPE_NS+"/"+obj.object_type,config))
+      // {
+      //   ROS_ERROR_STREAM("param "<<nh_.getNamespace()<<OBJECT_TYPE_NS+"/"<< obj.object_type <<" not found");
+      //   res.success = false;
+      //   return true;
+      // }
+
+      if(!nh_.getParam(obj.object_type,config))
       {
-        ROS_ERROR_STREAM("param "<<nh_.getNamespace()<<OBJECT_TYPE_NS+"/"<< obj.object_type <<" not found");
+        ROS_ERROR_STREAM("param "<<nh_.getNamespace()<< obj.object_type <<" not found");
         res.success = false;
         return true;
       }
