@@ -1,0 +1,6 @@
+<library path="lib/libcnr_impedance_regulator">
+<class name="regulator/impedance_regulator" type="cnr_impedance_regulator::ImpedanceRegulator"
+       base_class_type="cnr_regulator_interface::BaseRegulator">
+  <description>This is a triangle plugin.</description>
+</class>
+</library>

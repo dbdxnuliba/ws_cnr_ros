@@ -1,0 +1,27 @@
+- git:
+    local-name: cnr_logger
+    uri: https://github.com/CNR-STIIMA-IRAS/cnr_logger
+- git:
+    local-name: realtime_utilities
+    uri:  https://github.com/CNR-STIIMA-IRAS/realtime_utilities
+- git:
+    local-name: name_sorting
+    uri:  https://github.com/CNR-STIIMA-IRAS/name_sorting
+- git:
+    local-name: subscription_notifier
+    uri:  https://github.com/CNR-STIIMA-IRAS/subscription_notifier
+- git:
+    local-name: cnr_ros_control
+    uri:  https://github.com/CNR-STIIMA-IRAS/cnr_ros_control
+-git: 
+    local-name: cnr_control_toolbox
+    uri: https://github.com/CNR-STIIMA-IRAS/cnr_control_toolbox
+-git:
+    local-name: eigen_utils
+    uri: https://github.com/CNR-STIIMA-IRAS/eigen_utils
+-git:
+    local-name: rosdyn
+    uri: https://github.com/CNR-STIIMA-IRAS/rosdyn
+-git:
+    local-name: rosdyn_utilities
+    uri: https://github.com/CNR-STIIMA-IRAS/rosdyn_utilities

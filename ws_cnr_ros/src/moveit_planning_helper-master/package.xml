@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>moveit_planning_helper</name>
+  <version>0.0.0</version>
+  <description>The moveit_planning_helper package</description>
+
+  <maintainer email="nicola.pedrocchi@stiima.cnr.it">nicola pedrocchi</maintainer>
+
+  <license>Apache</license>
+
+  <url type="website">http://wiki.ros.org/moveit_planning_helper</url>
+
+  <author email="nicola.pedrocchi@stiima.cnr.it">nicola pedrocchi</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>moveit_core</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>eigen_matrix_utils</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>subscription_notifier</build_depend>
+  <build_depend>rosparam_utilities</build_depend>
+  <build_depend>name_sorting</build_depend>
+
+  <build_export_depend>moveit_core</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>eigen_matrix_utils</build_export_depend>
+  <build_export_depend>moveit_ros_planning</build_export_depend>
+  <build_export_depend>moveit_ros_planning_interface</build_export_depend>
+  <build_export_depend>rosparam_utilities</build_export_depend>
+  <build_export_depend>name_sorting</build_export_depend>
+
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>eigen_matrix_utils</exec_depend>
+  <exec_depend>moveit_ros_planning</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  
+  <depend>control_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>message_generation</depend>
+  <depend>moveit_visual_tools</depend>
+  <depend>actionlib_msgs</depend>
+
+
+
+  
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

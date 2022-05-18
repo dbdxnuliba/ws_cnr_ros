@@ -1,0 +1,7 @@
+<library path="lib/librobust_inverse_dynamics_controller">
+  <class name="robot_control/RobustInverseDynamicsControl" type="robot_control::RobustInverseDynamicsControl" base_class_type="controller_interface::ControllerBase">
+		<description>
+			Robust dynamics controller for standard ROS control
+		</description>
+	</class>
+</library>

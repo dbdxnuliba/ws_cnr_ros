@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosdyn_core</name>
+  <version>0.0.0</version>
+  <description>The rosdyn_core package</description>
+
+
+  <maintainer email="manuel.beschi@unibs.it">Manue Beschi</maintainer>
+  <maintainer email="nicola.pedrocchi@stiima.cnr.it">Nicola Pedrocchi</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://github.com/CNR-STIIMA-IRAS/rosdyn_core</url>
+
+  <author email="manuel.beschi@unibs.it">Manuel beschi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>urdf</build_depend>
+
+  <build_depend>roslint</build_depend>
+
+  <build_depend>eigen_matrix_utils</build_depend>
+  <build_depend>kinematics_filters</build_depend>
+
+  
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>roslint</run_depend>
+  
+  <run_depend>eigen_matrix_utils</run_depend>
+  <run_depend>kinematics_filters</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

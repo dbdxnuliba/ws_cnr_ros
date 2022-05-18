@@ -1,0 +1,7 @@
+.vs/
+*.kdev4
+kdev4/
+*~
+*.user
+*.user*
+*.json

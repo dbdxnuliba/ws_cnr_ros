@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robust_inverse_dynamics_controller</name>
+  <version>0.0.0</version>
+  <description>The robust_inverse_dynamics_controller package</description>
+
+  <maintainer email="maxwell@todo.todo">maxwell</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+<depend>controller_interface</depend>
+<depend>hardware_interface</depend>
+<depend>robust_inverse_dynamics</depend>
+<depend>subscription_notifier</depend>
+<depend>roscpp</depend>
+<depend>sensor_msgs</depend>
+<depend>std_msgs</depend>
+<depend>name_sorting</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <controller_interface plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

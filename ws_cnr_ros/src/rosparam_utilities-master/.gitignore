@@ -1,0 +1,9 @@
+*.kdev4
+kdev4/
+*~
+*.txt.user*
+*.autosave
+.vscode
+*.vscode
+*.swp
+*.orig

@@ -1,0 +1,9 @@
+*~
+*.kdev4
+*.user
+*.user*
+*.swp
+.vscode/
+build/
+*.bkp
+

@@ -1,0 +1,6 @@
+<library path="lib/libforce_torque_publisher">
+  <class name="cnr/control/ForceTorquePublisher" type="ros::control::ForceTorquePublisher" base_class_type="controller_interface::ControllerBase">
+    <description>
+    </description>
+  </class>
+</library>

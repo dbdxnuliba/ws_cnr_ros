@@ -1,0 +1,6 @@
+<library path="lib/libcnr_fake_regulator">
+<class name="regulator/fake_regulator" type="cnr::control::FakeRegulator"
+       base_class_type="cnr::control::BaseRegulator">
+  <description>This is a triangle plugin.</description>
+</class>
+</library>

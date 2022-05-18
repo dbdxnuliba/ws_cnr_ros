@@ -1,0 +1,14 @@
+manipulator:
+  sample_period: 1.0e-3
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 500
+
+  vel_controller:
+    type: robot_control/RobustInverseDynamicsControl
+    base_frame: world
+    tool_frame: flange
+    setpoint_topic_name: "/manipulator/joint_target"
+    natural_frequency: 20   # natural frequency of the closed loop
+    damping: 1              # relative damping of the closed loop
+    robustness_gain: 0.01   # robustness gain

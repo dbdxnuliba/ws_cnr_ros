@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>thor_prefilter</name>
+  <version>0.0.0</version>
+  <description>The thor_prefilter package</description>
+
+  <maintainer email="iras@stiima.cnr.it">maxwell</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://wiki.ros.org/thor_prefilter</url> -->
+  <!-- <author email="iras@stiima.cnr.it">Jane Doe</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>eigen_conversions</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>eigen_conversions</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <exec_depend>eigen_conversions</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <depend>trajectory_msgs</depend>
+  <depend>cnr_interpolator_interface</depend>
+  <depend>pluginlib</depend>
+
+  <export>
+    <cnr_interpolator_interface plugin="${prefix}/plugin.xml"/>
+  </export>
+
+</package>

@@ -1,0 +1,8 @@
+<library path="lib/liblookahead_prefilter">
+  <class name="thor/LookaheadPrefilter"
+         type="cnr::control::CartesianLookaheadPrefilter"
+         base_class_type="cnr::control::InterpolatorBase">
+    <description>
+    </description>
+  </class>
+</library>
